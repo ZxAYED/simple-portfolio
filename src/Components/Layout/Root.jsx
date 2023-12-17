@@ -4,11 +4,11 @@ import NavBar from "../Shared/NavBar";
 
 const Root = () => {
     return (
-        <div className="bg-[#f4f6f0] text-[#6D6D70]  min-h-screen"> 
-        <div className="">
+        <div className=" min-h-screen "> 
+   
             <NavBar></NavBar>
             <Outlet></Outlet>
-            </div>
+           
         </div>
     );
 };

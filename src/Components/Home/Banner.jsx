@@ -21,12 +21,11 @@ const Banner = () => {
  
         'MERN Stack Developer',
         1500, 
-        'Learner',
+         'Passionate Learner',
         1000,
         'Web Developer',
         1000,
-        'Full-Stack Developer with MERN',
-        1000,
+       
       
       ]}
       wrapper="span"
@@ -34,7 +33,7 @@ const Banner = () => {
       style={{ fontSize: '1em', display: 'inline-block' }}
       repeat={Infinity}
     /></h1>
-    <p className="text-semibold w-1/2 mx-auto flex justify-center items-center text-xl ">Passionate MERN stack developer dedicated to creating engaging and responsive web applications for an enhanced user experience.</p>
+    <p className="font-medium w-1/2 mx-auto flex justify-center items-center text-xl ">Passionate MERN stack developer dedicated to creating engaging and responsive web applications for an enhanced user experience.</p>
    
     <a href="https://drive.google.com/file/d/1AgaQL_hVKb6qKIO6ajBz63zceElNPuDZ/view?usp=sharing"  ><Buttons heading='See Resume'></Buttons></a>
         </div>

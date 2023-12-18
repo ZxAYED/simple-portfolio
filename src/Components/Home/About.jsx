@@ -1,7 +1,20 @@
 import img from '../../assets/PXL_20220812_173141898 (1).jpg'
+import html from '../../assets/icons8-html-5-240.png'
+import css from '../../assets/icons8-css3-144.png'
+import tailwind from '../../assets/icons8-tailwindcss-240.png'
+import boot from '../../assets/icons8-bootstrap-240.png'
+import mate from '../../assets/material ui.png'
+import js from '../../assets/icons8-js-240.png'
+import mongo from '../../assets/mongodb.png'
+import xpress from '../../assets/expressJs.png'
+import react from '../../assets/react.png'
+import node from '../../assets/nodeJs.png'
 import Title from '../Shared/Title';
 import { motion } from "framer-motion"
 import { useEffect } from "react";
+import { SiExpertsexchange } from "react-icons/si";
+import { HiAcademicCap } from "react-icons/hi2";
+import { TfiHtml5 } from "react-icons/tfi";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { MdOutlineCastForEducation } from "react-icons/md";
@@ -22,11 +35,11 @@ const About = () => {
                 transition={{ type: "spring", stiffness: 400, damping: 30 }}
             >
 
-                <div className='rounded-2xl z-10 shadow-md  hover:scale-105 hover:transition-transform hover:duration-500  hover:ease-in-out max-w-5xl mx-auto'  >
+                <div className=' rounded-2xl z-10 shadow-md  hover:scale-105 hover:transition-transform hover:duration-500  hover:ease-in-out max-w-5xl mx-auto'  >
 
 
-                    <section className="flex p-10 flex-col md:flex-row justify-center  gap-4">
-                        <aside className="md:pr-12">
+                    <section className="flex  p-10 flex-col md:flex-row justify-center  gap-4">
+                        <aside className="md:pr-12 w-1/2 text-lg">
 
 
                             <h1 className='text-3xl font-bold  '>About Me </h1>
@@ -36,14 +49,34 @@ const About = () => {
                                 development.</p>
                             <div>
                                 <div>
-                                <p className='font-semibold text-lg py-4 flex  items-center gap-2'> <MdOutlineCastForEducation />Educational Background  :</p>
-                                <p>  Bsc Honours in Physics</p>
+                                <p className='font-semibold justify-center text-xl pb-4 pt-6 flex  items-center gap-2'>  <HiAcademicCap /> Academic Background  </p>
+                                <p className='  flex  text-center  gap-2'> <span className='text-xl pt-1'><MdOutlineCastForEducation /></span>  Currently studying my Honours in physics at Govt Titumir College, delving into the wonders of the universe with enthusiasm and curiosity</p>
          
                                 </div>
+                                <div>
+                                <p className='font-semibold justify-center text-xl pb-4 pt-6 flex  items-center gap-2'> <SiExpertsexchange />Skills  </p>
+                                <p className='  flex flex-wrap items-center justify-center pb-4  gap-3 '>
+                                    <span className='flex  justify-center items-center'> <img className='w-8 h-8' src={html} alt="html" />Html </span>
+                                    <span className='flex  justify-center items-center'> <img className='w-8 h-8' src={css} alt="css" />Css </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={tailwind} alt="tailwind" />Tailwind CSS</span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={boot} alt="boot" />BootStrap </span>
+                                    <span className='flex gap-1 justify-center items-center'> <img className='w-8 h-8' src={mate} alt="material ui" />Material UI </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={js} alt="js" />JavaScript </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={react} alt="react" />React js </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={mongo} alt="mongodb" />Mongo DB </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={xpress} alt="xpress" />Express Js </span>
+                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={node} alt="node" />Node Js </span>
+                                  
+                                    
+
+                                  </p>
+         
+                                </div>
+                                
                             </div>
                         </aside>
 
-                        <aside>
+                        <aside className='w-1/2 '>
                             <img className='rounded-2xl' src={img} alt="Zayed's Photo" />
 
                         </aside>

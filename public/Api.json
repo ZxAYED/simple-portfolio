@@ -1,0 +1,73 @@
+[
+    {
+      "projectId": "01",
+      "projectName": "RizkShare",
+      "description": "The core focus of the project is facilitating the donation and distribution of food to those in need  & developed using the MERN stack, enabling users to order or donate food effortlessly. Seamlessly blending React for dynamic interfaces, MongoDB for efficient data management, and Express for robust server-side functionalities, this project fosters a community-driven initiative to address food security.",
+      "features": [
+        "User-Friendly Food Donation and Ordering",
+        "Secure JWT and Firebase Authentication",
+        "Interactive UI with React Toast and AOS",
+        "Real-Time Server-Client Interaction",
+        "Gorgeous and Responsive Design"
+      ],
+      
+      "githubClientCode": "https://github.com/ZxAYED/rizkshare",
+      "githubServerCode": "https://github.com/ZxAYED/rizkshare-server",
+      "liveLink": "https://zayed-rizkshare.netlify.app",
+      "imageUrl": "https://i.ibb.co/CMX8v69/RIzk-Share-Banner.png"
+    },
+    {
+      "projectId": "02",
+      "projectName": "TaqwaMate",
+      "description": "Experience the next level of matrimony with our innovative platform. Our website combines advanced features such as secure authentication with JWT and Firebase, efficient data handling with Tanstack Query, user-friendly profile management using React Hook Form, engaging UI elements with Lotties, animations, and toasts, and seamless integration with MongoDB for reliable data persistence. Elevate your journey to finding a life partner with a trusted, efficient, and delightful matrimony experience."
+,
+      "features": [
+        "Secure Authentication with JWT and Firebase",
+        "Efficient and Dynamic Data Handling with Tanstack Query",
+        "User-Friendly Profile Management with React Hook Form",
+        "Engaging UI with Lotties, Animations, and Toasts",
+        "Seamless Integration with MongoDB for Data Persistence"
+      ]
+      ,
+      "githubClientCode": "https://github.com/ZxAYED/z-matrimony",
+      "githubServerCode": "https://github.com/ZxAYED/taqwamate-server",
+      "liveLink": "https://taqwamate.netlify.app",
+      "imageUrl": "https://i.ibb.co/tBT13NZ/matri.png"
+    }
+    ,
+    {
+      "projectId": "03",
+      "projectName": "Game Management Event",
+      "description": "Seamless Integration of React AOS Motion for Engaging UI Secure Firebase Authentication for Participant Access Beautiful Design Elements for Visual Appeal Real-time Notifications with Toastify Efficient Event Management with React DOM ",
+      "features": [
+        "Seamless Integration of React AOS Motion for Engaging UI",
+        "Secure Firebase Authentication for Participant Access",
+        "Beautiful Design Elements for Visual Appeal",
+        "Real-time Notifications with Toastify",
+        "Efficient Event Management with React DOM"
+      ]
+      ,
+      "githubClientCode": "https://github.com/ZxAYED/game-event-management",
+    
+      "liveLink": "https://zxayeds-game-event-management.netlify.app",
+      "imageUrl": "https://i.ibb.co/NsJxm4P/game.png"
+    }
+    ,
+    {
+      "projectId": "04",
+      "projectName": "TechLab-Z",
+      "description": "Step into the world of tech with Myonline electronics and gadgets store, where innovation meets convenience. Explore a seamless e-commerce experience with a captivating design, complete CRUD operations, and user-friendly product management. Secure your journey with login authentication, receive real-time feedback with Toastify, and immerse yourself in a visually stunning platform. Unleash the power to showcase and explore cutting-edge electronics effortlessly.",
+      "features": [
+        "Complete CRUD Operations for Effortless Product Management",
+        "Secure Login Authentication for User Privacy",
+        "Real-time Feedback with Toastify",
+        "Captivating Design for a Visually Stunning Experience"
+      ]
+      ,
+      "githubClientCode": "https://github.com/ZxAYED/techLab-z",
+      "githubServerCode": "https://github.com/ZxAYED/techlab-z-server",
+      "liveLink": "https://techlab-z.netlify.app",
+      "imageUrl": "https://i.ibb.co/0GbM44T/tech.png"
+    }
+  ]
+  

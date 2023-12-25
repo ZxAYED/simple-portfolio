@@ -1,5 +1,5 @@
 import { TypeAnimation } from 'react-type-animation';
-import img from '../../assets/IMG_20231216_120550.jpg'
+
 import Buttons from '../Shared/Buttons';
 import { motion } from "framer-motion"
 const Banner = () => {
@@ -19,11 +19,11 @@ const Banner = () => {
           <h1 className=" text-3xl py-5 font-bold">  <TypeAnimation
       sequence={[
  
-        'MERN Stack Developer',
+        'Frontend Developer',
         1500, 
          'Passionate Learner',
         1000,
-        'Web Developer',
+        'MERN Stack Enthusiastic ',
         1000,
        
       

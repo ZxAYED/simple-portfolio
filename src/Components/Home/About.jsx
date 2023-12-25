@@ -38,8 +38,8 @@ const About = () => {
                 <div className=' rounded-2xl z-10 shadow-md  hover:scale-105 hover:transition-transform hover:duration-500  hover:ease-in-out max-w-5xl mx-auto'  >
 
 
-                    <section className="flex  p-10 flex-col md:flex-row justify-center  gap-4">
-                        <aside className="md:pr-12 w-1/2 text-lg">
+                    <section className="flex  p-10 flex-col-reverse  md:flex-row justify-center  gap-4">
+                        <aside className="md:pr-12 md:w-1/2 text-lg">
 
 
                             <h1 className='text-3xl font-bold  '>About Me </h1>
@@ -48,24 +48,26 @@ const About = () => {
                                 skills from the world of physics with the creativity and problem-solving mindset required in the realm of web
                                 development.</p>
                             <div>
+                            <div className="divider my-2"></div>
                                 <div>
-                                <p className='font-semibold justify-center text-xl pb-4 pt-6 flex  items-center gap-2'>  <HiAcademicCap /> Academic Background  </p>
-                                <p className='  flex  text-center  gap-2'> <span className='text-xl pt-1'><MdOutlineCastForEducation /></span>  Currently studying my Honours in physics at Govt Titumir College, delving into the wonders of the universe with enthusiasm and curiosity</p>
+                                <p className='font-semibold justify-start text-xl pb-4 pt-2 flex  items-center gap-2'>  <HiAcademicCap /> Academic Background  </p>
+                                <p className='  flex   gap-2'> <span className='text-xl pt-1'></span>  Currently studying my Honours in physics at Govt Titumir College, delving into the wonders of the universe with enthusiasm and curiosity</p>
          
                                 </div>
+                                <div className="divider my-2"></div>
                                 <div>
-                                <p className='font-semibold justify-center text-xl pb-4 pt-6 flex  items-center gap-2'> <SiExpertsexchange />Skills  </p>
-                                <p className='  flex flex-wrap items-center justify-center pb-4  gap-3 '>
-                                    <span className='flex  justify-center items-center'> <img className='w-8 h-8' src={html} alt="html" />Html </span>
-                                    <span className='flex  justify-center items-center'> <img className='w-8 h-8' src={css} alt="css" />Css </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={tailwind} alt="tailwind" />Tailwind CSS</span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={boot} alt="boot" />BootStrap </span>
-                                    <span className='flex gap-1 justify-center items-center'> <img className='w-8 h-8' src={mate} alt="material ui" />Material UI </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={js} alt="js" />JavaScript </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={react} alt="react" />React js </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={mongo} alt="mongodb" />Mongo DB </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={xpress} alt="xpress" />Express Js </span>
-                                    <span className='flex gap-1  justify-center items-center'> <img className='w-8 h-8' src={node} alt="node" />Node Js </span>
+                                <p className='font-semibold  text-xl pb-6 pt-2 flex  items-center gap-2'> <SiExpertsexchange />Skills  </p>
+                                <p className='  flex flex-wrap  gap-2 justify-start items-center  '>
+                                    <span className='flex pr-4  justify-center items-center'> <img className='w-8 h-8' src={html} alt="html" />Html </span>
+                                    <span className='flex pr-4  justify-center items-center'> <img className='w-8 h-8' src={css} alt="css" />Css </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={tailwind} alt="tailwind" />Tailwind CSS</span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={boot} alt="boot" />BootStrap </span>
+                                    <span className='flex pr-4 gap-1 justify-center items-center'> <img className='w-8 h-8' src={mate} alt="material ui" />Material UI </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={js} alt="js" />JavaScript </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={react} alt="react" />React js </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={mongo} alt="mongodb" />Mongo DB </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={xpress} alt="xpress" />Express Js </span>
+                                    <span className='flex pr-4 gap-1  justify-center items-center'> <img className='w-8 h-8' src={node} alt="node" />Node Js </span>
                                   
                                     
 
@@ -76,7 +78,7 @@ const About = () => {
                             </div>
                         </aside>
 
-                        <aside className='w-1/2 '>
+                        <aside className=' md:w-1/2 '>
                             <img className='rounded-2xl' src={img} alt="Zayed's Photo" />
 
                         </aside>

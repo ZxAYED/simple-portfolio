@@ -1,5 +1,5 @@
 import './Navbar.css'
-import img from '../../assets/logo.jpg'
+import img from '../../assets/profile.jpg'
 import React, { useEffect } from 'react';
 import { motion } from "framer-motion"
 import { RxDropdownMenu } from "react-icons/rx";
@@ -49,7 +49,7 @@ transition={{ type: "spring", stiffness: 400, damping: 30 }}
 whileHover={{ scale: 1.01 }}
 whileTap={{ scale: 0.9 }}
 transition={{ type: "spring", stiffness: 400, damping: 30 }}
-> <img className='rounded-xl' alt="Zayed" src={img} /> </motion.div>
+> <img className='rounded-full' alt="Zayed" src={img} /> </motion.div>
         </div></div>
   </div>
 </div>

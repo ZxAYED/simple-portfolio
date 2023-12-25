@@ -23,7 +23,7 @@ const About = () => {
         AOS.init();
     }, [])
     return (
-        <div data-aos="fade-zoom-in"
+        <div  data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="500"
             data-aos-offset="0" className="relative mt-28 max-w-5xl mx-auto">
@@ -51,7 +51,7 @@ const About = () => {
                             <div className="divider my-2"></div>
                                 <div>
                                 <p className='font-semibold justify-start text-xl pb-4 pt-2 flex  items-center gap-2'>  <HiAcademicCap /> Academic Background  </p>
-                                <p className='  flex   gap-2'> <span className='text-xl pt-1'></span>  Currently studying my Honours in physics at Govt Titumir College, delving into the wonders of the universe with enthusiasm and curiosity</p>
+                                <p  className='  flex   gap-2'> <span className='text-xl pt-1'></span>  Currently studying my Honours in physics at Govt Titumir College, delving into the wonders of the universe with enthusiasm and curiosity</p>
          
                                 </div>
                                 <div className="divider my-2"></div>
@@ -78,7 +78,7 @@ const About = () => {
                             </div>
                         </aside>
 
-                        <aside className=' md:w-1/2 '>
+                        <aside id="aboutSection" className=' md:w-1/2 '>
                             <img className='rounded-2xl' src={img} alt="Zayed's Photo" />
 
                         </aside>

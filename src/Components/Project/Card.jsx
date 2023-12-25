@@ -1,9 +1,13 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { motion } from 'framer-motion';
 import Buttons from '../Shared/Buttons';
+import { useEffect } from 'react';
 
 const Card = ({ item }) => {
-    console.log(item);
+    useEffect(()=>{
+        AOS.init();
+      },[])
     return (
         <motion.div
 
@@ -11,7 +15,7 @@ const Card = ({ item }) => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 400, damping: 30 }}
         >
-            <div className="overflow-hidden   hover:scale-105 hover:transition-transform hover:duration-500   hover:ease-in-out rounded-2xl z-10    hover:bg-[#ebeee5] py-6  ">
+            <div data-aos="zoom-in" className="overflow-hidden   hover:scale-105 hover:transition-transform hover:duration-500   hover:ease-in-out rounded-2xl z-10    hover:bg-[#ebeee5] py-6  ">
 
 
                 <div className="">

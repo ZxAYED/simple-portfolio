@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Project from "../Project/Project";
 import Education from "../Others/Education";
-import WHy from './../Others/WHy';
+import WHy from '../Others/WHy';
 import Footer from "../Shared/Footer";
 
 
@@ -17,7 +17,7 @@ const Home = () => {
 
 
     return (
-        <div className="#f4f6f0  ">
+        <div id='home' className="#f4f6f0"   >
             <Banner></Banner>
 
             <About></About>

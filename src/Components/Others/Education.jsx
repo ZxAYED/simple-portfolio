@@ -11,7 +11,7 @@ const Education = () => {
         whileTap={{ scale: 0.9 }}
         transition={{ type: "spring", stiffness: 400, damping: 30 }}
     >
-            <div className="shadow-xl p-6 rounded-2xl">
+            <div className=" border-2 p-6 rounded-2xl">
       
             <h1 className="text-center pt-6 font-bold text-4xl"> Professional Odyssey & Soft Skills</h1>
             <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-10">

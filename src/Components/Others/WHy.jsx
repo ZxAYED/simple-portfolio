@@ -3,8 +3,13 @@ import img2 from '../../assets/buss.png'
 import img4 from '../../assets/comm.png'
 import img3 from '../../assets/ad.png'
 import { motion } from 'framer-motion';
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const WHy = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <div className="max-w-5xl  mx-auto relative mt-10   pb-20" >
             <h1 className=' absolute -top-10 md:-top-10  opacity-10 md:left-[10%]  md:right-[10%] mx-auto text-center  text-6xl font-bold ' >Why You need me</h1>
@@ -14,7 +19,7 @@ const WHy = () => {
                 <p className="text-center text-lg">I bring a mix of tech skills and business know-how. As a seasoned MERN Stack Developer and Sales Executive, here's why teaming up with me makes sense:</p>
                 <section className="grid grid-cols-1 md:grid-cols-2 md:p-10 gap-6 text-center text-lg ">
                     <motion.div
-
+                        data-aos="fade-down-right"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 30 }}
@@ -25,7 +30,7 @@ const WHy = () => {
                         </aside>
                     </motion.div>
                     <motion.div
-
+                        data-aos="fade-down-left"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 30 }}
@@ -36,7 +41,7 @@ const WHy = () => {
                         </aside>
                     </motion.div>
                     <motion.div
-
+                        data-aos="fade-up-right"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 30 }}
@@ -47,7 +52,7 @@ const WHy = () => {
                         </aside>
                     </motion.div>
                     <motion.div
-
+                        data-aos="fade-up-left"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.9 }}
                         transition={{ type: "spring", stiffness: 400, damping: 30 }}
